@@ -1,0 +1,19 @@
+= MuckResources
+
+This gem contains images, javascript and stylesheets for the muck framework. It's intended to be used once to sync in the needed assets.
+It's intended to be used once when a project is created. After that it can be removed from your Gemfile to remove the need to download
+the gem at the time your application is deployed.
+
+== Usage
+Include the gem in your Gemfile:
+
+  gem "muck-resources"
+  
+Now run the rake task to copy assets into your project:
+
+  rake muck:sync:resources
+  
+After that the gem can be removed from your Gemfile.
+
+
+Copyright (c) 2009-2010 Tatemai, released under the MIT license

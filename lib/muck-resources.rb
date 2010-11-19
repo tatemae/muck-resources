@@ -1,0 +1,1 @@
+require 'muck-resources/engine'
