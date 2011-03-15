@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-resources}
-  s.version = "3.1.0"
+  s.version = "3.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball", "Joel Duffin"]
-  s.date = %q{2011-02-01}
+  s.date = %q{2011-03-15}
   s.description = %q{This is a container gem for resources like images, javascript and stylesheets for the muck framework and includes rake tasks for syncing these files into your application.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "lib/muck-resources/engine.rb",
     "lib/tasks/muck_files.rake",
     "lib/tasks/muck_gems.rake",
+    "muck-resources.gemspec",
     "public/images/admin/home.gif",
     "public/images/admin/source/Home.png",
     "public/images/arrow_down.gif",
@@ -77,6 +78,7 @@ Gem::Specification.new do |s|
     "public/images/icons/thumb_down.png",
     "public/images/icons/thumb_up.png",
     "public/images/icons/vote.png",
+    "public/images/loading-spinner.gif",
     "public/images/loading.gif",
     "public/images/nothing.png",
     "public/images/service_icons/16/amazon.png",
@@ -502,11 +504,10 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/tatemae/muck-resources}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.7}
+  s.rubygems_version = %q{1.6.0}
   s.summary = %q{This is a container gem for resources like images, javascript and stylesheets for the muck framework.}
 
   if s.respond_to? :specification_version then
-    current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
