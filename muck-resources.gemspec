@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-resources}
-  s.version = "3.1.1"
+  s.version = "3.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball", "Joel Duffin"]
-  s.date = %q{2011-03-15}
+  s.date = %q{2011-03-18}
   s.description = %q{This is a container gem for resources like images, javascript and stylesheets for the muck framework and includes rake tasks for syncing these files into your application.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -432,15 +432,14 @@ Gem::Specification.new do |s|
     "public/images/sprites.png",
     "public/javascripts/fancyzoom.min.js",
     "public/javascripts/jquery/colorpicker.js",
-    "public/javascripts/jquery/fg.menu.js",
-    "public/javascripts/jquery/jquery-ui-1.8.9.custom.min.js",
+    "public/javascripts/jquery/jquery-1.5.1.js",
+    "public/javascripts/jquery/jquery-ui-1.8.11.custom.js",
     "public/javascripts/jquery/jquery-ui.js",
     "public/javascripts/jquery/jquery.autocomplete.min.js",
     "public/javascripts/jquery/jquery.easing.js",
     "public/javascripts/jquery/jquery.fancybox.js",
     "public/javascripts/jquery/jquery.form.js",
     "public/javascripts/jquery/jquery.jgrowl.js",
-    "public/javascripts/jquery/jquery.js",
     "public/javascripts/jquery/jquery.metadata.min.js",
     "public/javascripts/jquery/jquery.mousewheel.js",
     "public/javascripts/jquery/jquery.queryString.js",
@@ -483,9 +482,22 @@ Gem::Specification.new do |s|
     "public/stylesheets/blueprint/src/print.css",
     "public/stylesheets/blueprint/src/reset.css",
     "public/stylesheets/blueprint/src/typography.css",
-    "public/stylesheets/fgmenu/fg.menu.css",
     "public/stylesheets/jquery/jquery.autocomplete.css",
     "public/stylesheets/jquery/jquery.fancybox.css",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_flat_75_ffffff_40x100.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_glass_65_ffffff_1x400.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_glass_75_dadada_1x400.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png",
+    "public/stylesheets/jquery/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png",
+    "public/stylesheets/jquery/smoothness/images/ui-icons_222222_256x240.png",
+    "public/stylesheets/jquery/smoothness/images/ui-icons_2e83ff_256x240.png",
+    "public/stylesheets/jquery/smoothness/images/ui-icons_454545_256x240.png",
+    "public/stylesheets/jquery/smoothness/images/ui-icons_888888_256x240.png",
+    "public/stylesheets/jquery/smoothness/images/ui-icons_cd0a0a_256x240.png",
+    "public/stylesheets/jquery/smoothness/jquery-ui-1.8.11.custom.css",
     "public/stylesheets/jquery/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png",
     "public/stylesheets/jquery/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png",
     "public/stylesheets/jquery/ui-lightness/images/ui-bg_flat_10_000000_40x100.png",
@@ -500,7 +512,7 @@ Gem::Specification.new do |s|
     "public/stylesheets/jquery/ui-lightness/images/ui-icons_ef8c08_256x240.png",
     "public/stylesheets/jquery/ui-lightness/images/ui-icons_ffd27a_256x240.png",
     "public/stylesheets/jquery/ui-lightness/images/ui-icons_ffffff_256x240.png",
-    "public/stylesheets/jquery/ui-lightness/jquery-ui-1.8.9.custom.css"
+    "public/stylesheets/jquery/ui-lightness/jquery-ui-1.8.11.custom.css"
   ]
   s.homepage = %q{http://github.com/tatemae/muck-resources}
   s.require_paths = ["lib"]
