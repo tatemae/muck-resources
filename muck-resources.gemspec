@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-resources}
-  s.version = "3.1.3"
+  s.version = "3.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball", "Joel Duffin"]
-  s.date = %q{2011-03-19}
+  s.date = %q{2011-03-30}
   s.description = %q{This is a container gem for resources like images, javascript and stylesheets for the muck framework and includes rake tasks for syncing these files into your application.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -435,7 +435,6 @@ Gem::Specification.new do |s|
     "public/javascripts/jquery/jquery-1.5.1.js",
     "public/javascripts/jquery/jquery-ui-1.8.11.custom.js",
     "public/javascripts/jquery/jquery-ui.js",
-    "public/javascripts/jquery/jquery.autocomplete.min.js",
     "public/javascripts/jquery/jquery.cookie.js",
     "public/javascripts/jquery/jquery.easing.js",
     "public/javascripts/jquery/jquery.fancybox.js",
@@ -448,7 +447,6 @@ Gem::Specification.new do |s|
     "public/javascripts/jquery/jquery.swapimage.min.js",
     "public/javascripts/jquery/jquery.timers.js",
     "public/javascripts/jquery/jquery.tips.js",
-    "public/javascripts/jquery/jrails.js",
     "public/javascripts/tree.js",
     "public/stylesheets/blueprint/ie.css",
     "public/stylesheets/blueprint/liquid_screen.css",
