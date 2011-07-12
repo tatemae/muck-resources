@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{muck-resources}
-  s.version = "3.1.4"
+  s.version = "3.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ball", "Joel Duffin"]
-  s.date = %q{2011-03-30}
+  s.date = %q{2011-07-12}
   s.description = %q{This is a container gem for resources like images, javascript and stylesheets for the muck framework and includes rake tasks for syncing these files into your application.}
   s.email = %q{justin@tatemae.com}
   s.extra_rdoc_files = [
@@ -111,7 +111,7 @@ Gem::Specification.new do |s|
     "public/images/service_icons/16/joost.png",
     "public/images/service_icons/16/lastfm.png",
     "public/images/service_icons/16/librarything.png",
-    "public/images/service_icons/16/linkedin.png",
+    "public/images/service_icons/16/linked_in.png",
     "public/images/service_icons/16/livejournal.png",
     "public/images/service_icons/16/magnolia.png",
     "public/images/service_icons/16/mendeley.png",
@@ -177,7 +177,7 @@ Gem::Specification.new do |s|
     "public/images/service_icons/24/joost.png",
     "public/images/service_icons/24/lastfm.png",
     "public/images/service_icons/24/librarything.png",
-    "public/images/service_icons/24/linkedin.png",
+    "public/images/service_icons/24/linked_in.png",
     "public/images/service_icons/24/livejournal.png",
     "public/images/service_icons/24/magnolia.png",
     "public/images/service_icons/24/mendeley.png",
@@ -243,7 +243,7 @@ Gem::Specification.new do |s|
     "public/images/service_icons/48/joost.png",
     "public/images/service_icons/48/lastfm.png",
     "public/images/service_icons/48/librarything.png",
-    "public/images/service_icons/48/linkedin.png",
+    "public/images/service_icons/48/linked_in.png",
     "public/images/service_icons/48/livejournal.png",
     "public/images/service_icons/48/magnolia.png",
     "public/images/service_icons/48/mendeley.png",
@@ -309,7 +309,7 @@ Gem::Specification.new do |s|
     "public/images/service_icons/60/joost.png",
     "public/images/service_icons/60/lastfm.png",
     "public/images/service_icons/60/librarything.png",
-    "public/images/service_icons/60/linkedin.png",
+    "public/images/service_icons/60/linked_in.png",
     "public/images/service_icons/60/livejournal.png",
     "public/images/service_icons/60/magnolia.png",
     "public/images/service_icons/60/mendeley.png",
@@ -388,7 +388,7 @@ Gem::Specification.new do |s|
     "public/images/service_icons/source/joost.png",
     "public/images/service_icons/source/lastfm.png",
     "public/images/service_icons/source/librarything.png",
-    "public/images/service_icons/source/linkedin.png",
+    "public/images/service_icons/source/linked_in.png",
     "public/images/service_icons/source/livejournal.png",
     "public/images/service_icons/source/magnolia.png",
     "public/images/service_icons/source/mendeley.png",
@@ -515,7 +515,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = %q{http://github.com/tatemae/muck-resources}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.0}
+  s.rubygems_version = %q{1.6.2}
   s.summary = %q{This is a container gem for resources like images, javascript and stylesheets for the muck framework.}
 
   if s.respond_to? :specification_version then
